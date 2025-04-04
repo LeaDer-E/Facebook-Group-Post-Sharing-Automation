@@ -70,11 +70,6 @@ You can install all dependencies using the provided `requirements.txt` file.
 
 ---
 
-## Notes
-* Important: If the number of groups you intend to use this script for is less than 10, it is recommended to post manually. There is no need to use the script in such cases.
-
----
-
 ## Installation
 
 1. Ensure you have Python (preferably Python 3.7 or later) installed.
@@ -100,6 +95,11 @@ You can install all dependencies using the provided `requirements.txt` file.
 5. Press Enter to continue once the post is open.
 6. The script will start sharing the post to the selected groups one by one.
 7. A success message will be displayed after each group, and a final message will confirm the process is complete.
+
+---
+
+## Notes
+* Important: If the number of groups you intend to use this script for is less than 10, it is recommended to post manually. There is no need to use the script in such cases.
 
 ---
 
