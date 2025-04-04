@@ -123,7 +123,7 @@ You can install all dependencies using the provided `requirements.txt` file.
     pip install --upgrade selenium
     pip install --upgrade colorama
     ```
-
+  * **Compatibility:** Some libraries, like undetected_chromedriver, depend on external software (e.g., Chrome). Ensure your Chrome browser is updated to match the latest undetected_chromedriver version.
 ---
 
 ## Notes
