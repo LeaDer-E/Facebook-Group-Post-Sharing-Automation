@@ -4,17 +4,23 @@ This script uses Selenium with undetected_chromedriver to automate sharing a spe
 
 ---
 
+## ⚠️ Warning
+Ensure that you use this script legally and in compliance with Facebook's policies. Spamming or misuse may lead to account suspension or banning.
+
+---
+
 ## Table of Contents
 
 - [Description](#description)
 - [Code Explanation](#Code-Explanation)
 - [Requirements](#requirements)
+- [Features](#Features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Warning](#warning)
 - [Additional Notes](#additional-notes)
 - [Notes](#notes)
 - [Supported Languages](#supported-languages)
+- 
 
 ---
 
@@ -43,6 +49,16 @@ The script relies on libraries like selenium and undetected_chromedriver to cont
 
 ---
 
+
+## Features
+- **Stealth Mode**: Utilizes `undetected_chromedriver` to avoid detection by Facebook's automation detection systems.
+- **Automatic Login**: Logs into Facebook using provided credentials and saves browser data (cookies, user agent, etc.) for future use.
+  * for those who makes a second Virefication for not accept the verify Every time, you can only do `Trust This Device` When you login at the first time, and ther's no need to do it any more even you have the `json Data File` in the code folder that created after run the script and login for first time.
+- **Post Sharing**: Shares a predefined post (from `post.txt`) to multiple Facebook groups.
+- **Group Selection**: Allows starting from a specific group number and automatically handles group selection.
+- **Multi-Language Support**: Supports multiple languages for detecting the text area (see supported languages below).
+
+---
 ## Requirements
 
 The script requires the following packages:
@@ -80,17 +96,19 @@ You can install all dependencies using the provided `requirements.txt` file.
 6. The script will start sharing the post to the selected groups one by one.
 7. A success message will be displayed after each group, and a final message will confirm the process is complete.
 
-## Warning
-### ⚠️ Warning
-* Make sure to use the script legally and in accordance with Facebook's policies. Posting random content may result in your account being banned.
+---
 
 ## Additional Notes
 ### 💬 Additional Notes
 * This code uses undetected_chromedriver, which might require updates depending on the latest version of Chrome or changes in Facebook policies.
 * Keep an eye on any updates to the libraries used to ensure smooth operation.
 
+---
+
 ## Notes
 * Important: If the number of groups you intend to use this script for is less than 10, it is recommended to post manually. There is no need to use the script in such cases.
+
+---
 
 ## Supported Languages
 The script supports the following languages based on the aria-label attributes specified in the text_area_xpath:
@@ -111,3 +129,9 @@ The script supports the following languages based on the aria-label attributes s
   * Filipino: "Gumawa ng pampublikong post...", "Sumulat ng isang bagay..."
 
 If you need to add support for another language, you can modify the `text_area_xpath` in the script by adding the appropriate `aria-label` for that language. Alternatively, you can contact me (please communicate in English or Arabic).
+
+---
+
+
+## License
+* This project is licensed under the MIT License.
