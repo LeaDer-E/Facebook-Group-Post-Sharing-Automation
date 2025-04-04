@@ -20,7 +20,7 @@ Ensure that you use this script legally and in compliance with Facebook's polici
 - [Additional Notes](#additional-notes)
 - [Notes](#notes)
 - [Supported Languages](#supported-languages)
-- 
+- [License](#License)
 
 ---
 
