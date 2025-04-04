@@ -17,8 +17,8 @@ Ensure that you use this script legally and in compliance with Facebook's polici
 - [Features](#Features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Additional Notes](#additional-notes)
 - [Notes](#notes)
+- [Additional Notes](#additional-notes)
 - [Supported Languages](#supported-languages)
 - [License](#License)
 
@@ -67,6 +67,11 @@ The script requires the following packages:
 - colorama
 
 You can install all dependencies using the provided `requirements.txt` file.
+
+---
+
+## Notes
+* Important: If the number of groups you intend to use this script for is less than 10, it is recommended to post manually. There is no need to use the script in such cases.
 
 ---
 
@@ -124,11 +129,6 @@ You can install all dependencies using the provided `requirements.txt` file.
     pip install --upgrade colorama
     ```
   * **Compatibility:** Some libraries, like undetected_chromedriver, depend on external software (e.g., Chrome). Ensure your Chrome browser is updated to match the latest undetected_chromedriver version.
----
-
-## Notes
-* Important: If the number of groups you intend to use this script for is less than 10, it is recommended to post manually. There is no need to use the script in such cases.
-
 ---
 
 ## Supported Languages
