@@ -102,6 +102,27 @@ You can install all dependencies using the provided `requirements.txt` file.
 ### 💬 Additional Notes
 * This code uses undetected_chromedriver, which might require updates depending on the latest version of Chrome or changes in Facebook policies.
 * Keep an eye on any updates to the libraries used to ensure smooth operation.
+  ```bash
+  pip install --upgrade pip
+  pip install --upgrade -r requirements.txt
+  ```
+  * Verify the Updates:
+    ```bash
+    pip list
+    ```
+  * Check Specific Packages:
+    ```bash
+    pip show undetected_chromedriver
+    pip show selenium
+    pip show colorama
+    ```
+  ## Additional Tips:
+  * Manual Updates: If you prefer updating libraries one by one, use:
+    ```bash
+    pip install --upgrade undetected_chromedriver
+    pip install --upgrade selenium
+    pip install --upgrade colorama
+    ```
 
 ---
 
