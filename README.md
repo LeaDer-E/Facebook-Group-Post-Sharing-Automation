@@ -7,6 +7,7 @@ This script uses Selenium with undetected_chromedriver to automate sharing a spe
 ## Table of Contents
 
 - [Description](#description)
+- [Code Explanation](#Code-Explanation)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -28,6 +29,17 @@ This script performs the following tasks:
 - Opens the share window and selects groups from the list.
 - Shares the post in each group, starting from the specified group number.
 - Uses multiple XPath expressions to accommodate differences in Facebook's interface.
+
+---
+
+## Code Explanation
+The script relies on libraries like selenium and undetected_chromedriver to control a Chrome browser and avoid detection by Facebook. It includes the following steps:
+* Browser Setup: Initializes Chrome with options to avoid detection, such as disabling automation-controlled features and setting a natural user agent.
+* Data Saving and Loading: Saves cookies and browser data to a JSON file for faster future logins.
+* Login: Prompts the user for credentials and uses them to log into Facebook.
+* Post Identification: Asks the user to manually open the desired post, then reads the sharing message from post.txt.
+* Post Sharing: Identifies available groups, allows the user to choose a starting point, and automatically shares the post to each group using predefined XPaths.
+* Error Handling: Includes mechanisms to handle errors such as missing page elements or publishing issues.
 
 ---
 
