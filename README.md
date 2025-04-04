@@ -110,4 +110,4 @@ The script supports the following languages based on the aria-label attributes s
   * Traditional Chinese: "创建公开帖子..."
   * Filipino: "Gumawa ng pampublikong post...", "Sumulat ng isang bagay..."
 
-If you need to add support for another language, you can modify the text_area_xpath in the script by adding the appropriate aria-label for that language. Alternatively, you can contact me (please communicate in English or Arabic).
+If you need to add support for another language, you can modify the `text_area_xpath` in the script by adding the appropriate `aria-label` for that language. Alternatively, you can contact me (please communicate in English or Arabic).
